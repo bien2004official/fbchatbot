@@ -1,5 +1,4 @@
-Facebook Messenger chatbot
-Using fbchat API
+Facebook Messenger chatbot using fbchat API.
 How to run:
 - Clone this repo
 - Change email.txt and password.txt
