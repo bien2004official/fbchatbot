@@ -9,7 +9,7 @@ def main(email, password):
             # Only reply if message was from another user
             if author_id != self.uid:
                 if thread_type != ThreadType.GROUP: # If message was from a user, reply with a message
-                    message_id = client.send(Message(text='a'), thread_id=author_id, thread_type=ThreadType.USER)
+                    message_id = client.send(Message(text='Your reason of being AFK here'), thread_id=author_id, thread_type=ThreadType.USER)
                     client.reactToMessage(message_id, MessageReaction.LIKE)
             # If message was from a group, check if it was a tag or not,
             # only reply if it is a tag
