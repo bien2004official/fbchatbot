@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 schedule>=0.6.0
 fbchat>=1.9.6
+=======
+schedule>=0.6.0
+fbchat>=1.9.6
+>>>>>>> 6b6d7adb40c0e610ca6a76cde42f6fd29bfc6b45
