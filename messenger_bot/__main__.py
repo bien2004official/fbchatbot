@@ -1,4 +1,4 @@
-from messenger_bot.modules import track, base64_converter
+from messenger_bot.modules import track, base64_converter, login
 # import email and password from email.txt and password.txt
 f=open('email.txt', 'r')
 if f.mode == 'r':
@@ -9,4 +9,6 @@ if f.mode == 'r':
     password = base64_converter.converter(f.read())
 f.close()
 # main program
-track.main(email, password)
+# track.main(email, password)
+# login.main(email, password)
+track.main(login.cookies)
