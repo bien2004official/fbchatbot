@@ -6,3 +6,5 @@ How to run:
 - run python3 -m messenger_bot
 
 Current working feature: afk, unafk
+
+Warning: Currently ALPHA, changes may break builds, so revert to old commit if it does
